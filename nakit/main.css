@@ -1,0 +1,111 @@
+body{
+	background-image: url('pozadina.jpg');
+	background-repeat: no-repeat center fixed;
+	background-size: cover;
+}
+.container{
+	display: flex;
+
+}
+#poz{
+	position: 50% right;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+li{
+	float: left;
+
+}
+li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 50px;
+	text-decoration: none;
+	font-size: 5em;
+
+}
+li a:hover {
+	background-color: red;
+
+}
+
+.container123{
+	display: flex;
+}
+
+#tekst{
+	font-size: 6em;
+	position: absolute;
+	color: white;
+}
+header{
+	width: 1000px;
+	min-height: 700px;
+	margin: 0 auto;
+}
+#holder{
+	width: 10000px;
+	height: 300px;
+}
+#slider {
+	width: 10000px;
+	height: 400px;
+	
+}
+#holder img {
+	width: 2000px;
+	height: 2000px;
+	float: left;
+}
+#pricelist{
+	width: 1400px;
+	height: 1800px;
+	
+	color: black;
+	font-size: 5em;
+	float:;
+}
+
+.container12{
+	position: 50% right;
+
+}
+#contact{
+	text-align:center;
+	color: white;
+	font-size:5em;
+}
+
+#accessories{
+	height: 3000px;
+	width:7500px;
+	background-color: white;
+
+max-width: 3200px;
+	margin: auto;
+	overflow: auto;
+}
+	
+
+.gallery{
+	margin: 5px;
+	border:1px solid #ccc;
+	float: left;
+	width: 950px;
+}
+.gallery img{
+	width: 100%;
+	
+}
+.desc{
+	padding: 15px;
+	text-align: center;
+	font-size: 4em;
+}
